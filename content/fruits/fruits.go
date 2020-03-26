@@ -19,7 +19,7 @@ type Fruit struct {
 	Birthday     *time.Time
 }
 
-func FruitsPage(w http.ResponseWriter, r *http.Request, _ httprouter.Params) {
+func MainPage(w http.ResponseWriter, r *http.Request, _ httprouter.Params) {
 	fmt.Fprintf(w, "This is fruits page")
 
 }

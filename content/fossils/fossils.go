@@ -19,7 +19,7 @@ type Fossil struct {
 	Birthday     *time.Time
 }
 
-func FossilPage(w http.ResponseWriter, r *http.Request, _ httprouter.Params) {
+func MainPage(w http.ResponseWriter, r *http.Request, _ httprouter.Params) {
 	fmt.Fprintf(w, "This is fossil page")
 
 }

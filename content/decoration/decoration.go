@@ -19,12 +19,12 @@ type Decoration struct {
 	Birthday     *time.Time
 }
 
-func DecorationPage(w http.ResponseWriter, r *http.Request, _ httprouter.Params) {
+func MainPage(w http.ResponseWriter, r *http.Request, _ httprouter.Params) {
 	fmt.Fprintf(w, "This is decoration page")
 
 }
 
-func DecorationByTypePage(w http.ResponseWriter, r *http.Request, params httprouter.Params) {
+func ByTypePage(w http.ResponseWriter, r *http.Request, params httprouter.Params) {
 	fmt.Fprintf(w, "This is %s decoration page", params.ByName("decoration_type"))
 
 }

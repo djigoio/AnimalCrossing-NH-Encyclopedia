@@ -19,7 +19,7 @@ type Minerals struct {
 	Birthday     *time.Time
 }
 
-func MineralsPage(w http.ResponseWriter, r *http.Request, _ httprouter.Params) {
+func MainPage(w http.ResponseWriter, r *http.Request, _ httprouter.Params) {
 	fmt.Fprintf(w, "This is minerals page")
 
 }

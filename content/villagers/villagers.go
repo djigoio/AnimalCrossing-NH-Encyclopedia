@@ -19,12 +19,12 @@ type Villager struct {
 	Birthday     *time.Time
 }
 
-func VillagersPage(w http.ResponseWriter, r *http.Request, _ httprouter.Params) {
+func MainPage(w http.ResponseWriter, r *http.Request, _ httprouter.Params) {
 	fmt.Fprintf(w, "This is villagers page")
 
 }
 
-func VillagersByTypePage(w http.ResponseWriter, r *http.Request, params httprouter.Params) {
+func ByTypePage(w http.ResponseWriter, r *http.Request, params httprouter.Params) {
 	fmt.Fprintf(w, "This is %s villagers page", params.ByName("specie"))
 
 }
