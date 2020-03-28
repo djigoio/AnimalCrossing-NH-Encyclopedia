@@ -12,14 +12,15 @@ import (
 	"log"
 	"net/http"
 
-	"./content/bugs"
-	"./content/clothes"
-	"./content/decoration"
-	"./content/fishes"
-	"./content/fossils"
-	"./content/fruits"
-	"./content/minerals"
-	"./content/villagers"
+	"ac-pedia/content/bugs"
+	"ac-pedia/content/clothes"
+	"ac-pedia/content/decoration"
+	"ac-pedia/content/fishes"
+	"ac-pedia/content/fossils"
+	"ac-pedia/content/fruits"
+	"ac-pedia/content/minerals"
+	"ac-pedia/content/villagers"
+
 	"github.com/julienschmidt/httprouter"
 )
 
