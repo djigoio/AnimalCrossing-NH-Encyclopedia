@@ -1,7 +1,7 @@
 <h1 align="center">Welcome to AnimalCrossing-NH-Encyclopedia 👋</h1>
 <p>
   <a href="https://twitter.com/brownio\_" target="_blank">
-    <img alt="Twitter: brownio\_" src="https://img.shields.io/twitter/follow/brownio\_.svg?style=social" />
+    <img alt="Twitter: brownio_" src="https://img.shields.io/twitter/follow/brownio_.svg?style=social" />
   </a>
   <a href="https://gitmoji.carloscuesta.me">
 		<img src="https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat-square"
