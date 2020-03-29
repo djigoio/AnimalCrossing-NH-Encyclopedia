@@ -9,6 +9,8 @@
 	</a>
 </p>
 
+<h2> This project is now DISCONTINUED, as there is another project already with the same purpose <a href="https://nookpedia.com/">Nookpedia</a> and it basically gives me 0 motivation to continue it now :C </h2>
+
 ## Author
 
 👤 **Antonio Djigo**
